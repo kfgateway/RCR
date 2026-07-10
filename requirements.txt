@@ -1,0 +1,10 @@
+# Reference implementation for "Regime-conditional similarity: calibrated
+# mixture-of-metrics retrieval for auditable case-based reasoning".
+# Tested end to end with the versions pinned below (Python 3.12, CPU).
+torch==2.12.1
+numpy==2.4.4
+pandas==3.0.2
+openpyxl>=3.1        # read the .xlsx source datasets
+matplotlib>=3.8      # synthetic-validation figures (synthetic.py)
+# pytest is optional, only for `pytest tests.py`:
+# pytest>=8.0
